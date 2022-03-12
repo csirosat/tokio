@@ -26,7 +26,7 @@ pub(crate) struct Buf {
     pos: usize,
 }
 
-pub(crate) const MAX_BUF: usize = 64 * 1024;
+pub(crate) const MAX_BUF: usize = 128 * 1024;
 
 #[derive(Debug)]
 enum State<T> {
